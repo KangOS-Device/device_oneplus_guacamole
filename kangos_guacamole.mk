@@ -11,11 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamole device
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 
-# Inherit some common krypton stuff.
-$(call inherit-product, vendor/krypton/configs/KryptonCommon.mk)
+# Inherit some common kangos stuff.
+$(call inherit-product, vendor/kangos/config/common.mk)
+
+KANGOS_BUILD_TYPE := OFFICIAL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+  ro.kangos.maintainer=Travis
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := krypton_guacamole
+PRODUCT_NAME := kangos_guacamole
 PRODUCT_DEVICE := guacamole
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7 Pro

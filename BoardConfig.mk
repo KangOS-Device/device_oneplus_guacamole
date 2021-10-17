@@ -9,8 +9,7 @@ BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamole
 
 # Kernel
-TARGET_KERNEL_BUILD_HOST := kosp
-TARGET_KERNEL_BUILD_USER := "Zlatan Radovanovic"
+TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 
 # Display
 TARGET_SCREEN_DENSITY := 560

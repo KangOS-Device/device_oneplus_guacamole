@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/krypton_guacamole.mk
+    $(LOCAL_DIR)/kangos_guacamole.mk
+
+COMMON_LUNCH_CHOICES := \
+    kangos_guacamole-eng \
+    kangos_guacamole-user \
+    kangos_guacamole-userdebug
