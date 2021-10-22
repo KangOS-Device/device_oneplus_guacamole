@@ -16,7 +16,7 @@ $(call inherit-product, vendor/kangos/config/common.mk)
 
 KANGOS_BUILD_TYPE := OFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-  ro.kangos.maintainer=Travis
+  ro.kangos.maintainer=Modit_ji/Travisholt92
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := kangos_guacamole
