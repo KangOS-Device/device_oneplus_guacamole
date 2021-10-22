@@ -8,6 +8,9 @@
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamole
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 
